@@ -9,11 +9,11 @@ class Counter extends React.Component {
   }
 
   Increment = () => {
-    this.setState({ count: this.state.Count + 1 });
+    this.setState({ Count: this.state.Count + 1 });
   };
 
     Decrement = () => {
-    this.setState({ count: this.state.Count - 1 });
+    this.setState({ Count: this.state.Count - 1 });
   };
 
   render() {
